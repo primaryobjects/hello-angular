@@ -19,6 +19,16 @@ Returns the text "Hello, World". You may optionally provide a url parameter `?te
 
 Returns the text specified in the url.
 
+## Architecture
+
+The layout of the program focuses on the [home component](https://github.com/primaryobjects/hello-angular/blob/main/client/src/app/home/home.component.html) which displays the text from the type [Hello](https://github.com/primaryobjects/hello-angular/blob/main/client/src/app/hello.ts).
+
+The component [loads](https://github.com/primaryobjects/hello-angular/blob/main/client/src/app/home/home.component.ts#L17) the text from an Angular [service](https://github.com/primaryobjects/hello-angular/blob/main/client/src/app/hello.service.ts#L14).
+
+Finally, the resulting text is [rendered](https://github.com/primaryobjects/hello-angular/blob/main/client/src/app/home/home.component.html#L2) on the page.
+
+*Angular client => Angular service => .NET controller*
+
 ## Tech Stack
 
 - Visual Studio Code
