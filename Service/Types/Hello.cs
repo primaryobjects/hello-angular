@@ -7,7 +7,7 @@ namespace Service.Types
 {
     public class Hello
     {
-        public static string DefaultText { get; } = "Hello World";
+        public static string DefaultText { get; } = "Hello, World";
         public string Text { get; set; }
 
         public Hello() : this(DefaultText)
