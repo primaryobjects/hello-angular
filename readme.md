@@ -11,11 +11,11 @@ While the REST API only returns a simple string, this could easily be expanded t
 
 ## API Methods
 
-### GET /hello
+### GET /api/hello
 
 Returns the text "Hello, World". You may optionally provide a url parameter `?text=<YOUR TEXT>` to customize the text returned.
 
-### GET /hello/{text}
+### GET /api/hello/{text}
 
 Returns the text specified in the url.
 
