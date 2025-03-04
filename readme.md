@@ -9,6 +9,8 @@ This is a simple isomorphic application that hosts an Angular web client and a .
 
 While the REST API only returns a simple string, this could easily be expanded to utilize the Entity Framework to retrieve from a database or perform other interactions.
 
+![Architecture of frontend Angular app and backend ASP .NET Core Web API service](images/flowchart.png)
+
 ## API Methods
 
 ### GET /api/hello
