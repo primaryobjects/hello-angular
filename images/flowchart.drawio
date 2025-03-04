@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
+  <diagram name="Page-1" id="ps-VKFJuKRZ5KzUtOKqK">
+    <mxGraphModel dx="1037" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-1" value="Angular" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-2" value="ASP .NET Core Web API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-4" value="&quot;Hello World&quot;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NC8B7NW0NOyK8N8mfVPX-14" target="NC8B7NW0NOyK8N8mfVPX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NC8B7NW0NOyK8N8mfVPX-4" target="NC8B7NW0NOyK8N8mfVPX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NC8B7NW0NOyK8N8mfVPX-1" target="NC8B7NW0NOyK8N8mfVPX-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="304.5" as="sourcePoint" />
+            <mxPoint x="420" y="304.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-12" value="Front End Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-13" value="Back End Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-14" value="Web Browser" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NC8B7NW0NOyK8N8mfVPX-16" value="HTTP GET" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
